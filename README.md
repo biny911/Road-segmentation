@@ -8,12 +8,12 @@
 
 
 
-* ### Development environment
+* ### 개발환경
 
 
   ubuntu 18.04, tensorflow 2.0.0, opencv-python 4.2.0.32, numpy 1.18.2
 
-* ### model
+* ### 모델
 
 
   [FCN](https://github.com/seraaaayeo/SellyDev/blob/road_segmentation/model/fcn.py)(test x)
@@ -29,7 +29,7 @@
 ![image](https://user-images.githubusercontent.com/52908154/79126562-2a58e480-7ddb-11ea-90ee-0488cffe1ad2.png)
 
 
-* ### Learning environment
+* ### 환경
 
   * Dataset - [AI Hub](http://www.aihub.or.kr/) sidewalk walking image
 
@@ -45,7 +45,7 @@
 
   * learning rate : 1e-4  ->  epoch>10 lr decay(1e-5) 
 
-* ### Class
+* ### 클래스
 
 |class|label|
 |------|---|
@@ -59,8 +59,7 @@
 
 [detail](https://github.com/JunHyeok96/Road-Segmentation/blob/master/data_loader/data_loader.py)
 
-* ### Quick start 
-I provide a pretraining model weight. (pspunet loss 0.3160 mIoU 74.5% acc 90.2%)
+
 
 ```
 git clone https://github.com/JunHyeok96/Road-Segmentation.git
